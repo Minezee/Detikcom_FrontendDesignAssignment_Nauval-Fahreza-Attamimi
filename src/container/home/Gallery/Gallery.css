@@ -53,6 +53,10 @@
     cursor: pointer;
 }
 
+.arrow-svg {
+    width: 70px;
+}
+
 .arrow:hover {
     opacity: 100%;
 }
@@ -60,6 +64,10 @@
 @media (max-width: 750px) {
     .section-title {
         font-size: 24px;
+    }
+
+    .arrow-svg {
+        width: 35px;
     }
 
     .wrapper {

@@ -97,16 +97,29 @@
     font-size: 12px;
     font-weight: 600;
     padding: 5px;
+    top: 0;
+    right: 0;
+    margin: 12px;
+}
+
+.detail-svg {
+    width: 15px;
 }
 
 @media (max-width: 650px) {
     .berita-bg {
         background-image: url("../../../assets/bgArticleMobile.png");
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-size: 100% 100%;
-        padding-top: 163px;
-        padding-bottom: 400px;
+        padding-top: 84px;
+        padding-bottom: 349px;
+    }
+
+    .detail-svg {
+        width: 8px;
+    }
+    
+    .card-detail {
+        font-size: 8px;
+        margin: 4px;
     }
 
     .card-img-wrapper {
