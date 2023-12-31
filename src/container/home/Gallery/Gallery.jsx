@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { gallery1, gallery2, gallery3, gallery4 } from '../../../assets'
 import "./Gallery.css"
-import ContentLayout from '../../../layout/contentLayout'
+import ContentLayout from '../../../layout/ContentLayout'
 
 const ArrowLeft = () => (
     <svg className=''  viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
