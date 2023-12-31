@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { article1, article2, article3, article4, article5, article6, gallery1 } from "../../../assets"
 import { DirectBtn } from "../../../components"
-import ContentLayout from "../../../layout/contentLayout"
+import ContentLayout from "../../../layout/ContentLayout"
 import "./Berita.css"
 
 const cardData = [
