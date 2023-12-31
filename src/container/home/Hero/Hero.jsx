@@ -1,6 +1,6 @@
 import { heroText } from "../../../assets";
 import "./Hero.css";
-import ContentLayout from "../../../layout/contentLayout";
+import ContentLayout from "../../../layout/ContentLayout";
 import { DirectBtn } from "../../../components";
 
 const Hero = ({homeRef}) => {

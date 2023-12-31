@@ -1,7 +1,7 @@
 import { imgBox, map } from "../../../assets"
 import { DirectBtn } from "../../../components"
 import "./EventInfo.css"
-import ContentLayout from "../../../layout/contentLayout"
+import ContentLayout from "../../../layout/ContentLayout"
 
 const EventInfo = ({eventRef}) => {
     return (
