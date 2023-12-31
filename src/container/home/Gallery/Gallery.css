@@ -73,40 +73,7 @@
     .wrapper {
         padding: 110px 0;
     }
-
-    .left-box h2 {
-        font-size: 24px;
-    }
-
-    .img-box {
-        flex-direction: column;
-    }
-
-    .info-img-wrapper {
-        width: 100%;
-        aspect-ratio: 4/3;
-    }
-
-    .img-box img {
-        aspect-ratio: 4/3;
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        transition: transform .5s ease;
-    }
-
-    .left-box p {
-        font-size: 14px;
-    }
-
-    .right-box h2 {
-        font-size: 24px;
-    }
-
-    .img-box {
-        gap: 27px;
-    }
-
+    
     .img-wrapper img {
         border-radius: 1rem;
     }
