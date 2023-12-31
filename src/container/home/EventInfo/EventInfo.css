@@ -1,0 +1,132 @@
+.box {
+    background: linear-gradient(237deg, #59FFB9 -30.09%, #326CFF 71.21%);
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+}
+
+.box:hover {
+    background: linear-gradient(157deg, #59FFB9 -34.83%, #326CFF 84.53%);
+}
+
+.box p {
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.left-box {
+    height: 100%;
+}
+
+.left-box div {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1.25rem;
+}
+
+.left-box img {
+    width: 100%;
+    transition: transform .5s ease;
+    border-radius: 1.25rem;
+    aspect-ratio: 4/3;
+}
+
+.box:hover img {
+    transform: scale(1.14);
+}
+
+.left-box h2 {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.right-box-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 27px;
+}
+
+.right-box h2 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.info-img-wrapper {
+    overflow: hidden;
+    border-radius: 1.25rem;
+    width: 178px;
+    aspect-ratio: 1/1;
+}
+
+.img-box img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform .5s ease;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.event-wrapper {
+    gap: 27px;
+}
+
+@media (max-width: 100px) {
+    .img-box {
+        flex-direction: column;
+    }
+
+    .info-img-wrapper {
+        width: 100%;
+        aspect-ratio: 4/3;
+    }
+
+    .img-box img {
+        aspect-ratio: 4/3;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        transition: transform .5s ease;
+    }
+}
+
+@media (max-width: 1440px) {
+    .left-box h2 {
+        font-size: 24px;
+    }
+
+    .left-box p {
+        font-size: 14px;
+    }
+
+    .right-box h2 {
+        font-size: 24px;
+    }
+
+    .img-box {
+        gap: 27px;
+    }
+}
